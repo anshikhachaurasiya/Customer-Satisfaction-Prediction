@@ -17,6 +17,8 @@ Customer satisfaction is influenced by multiple factors including:
 * Customer and seller attributes
 
 This project builds a **production-oriented machine learning pipeline** to predict customer review scores from historical e-commerce data.
+## Dataset
+This project uses the [Olist Brazilian E-Commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). Download it from Kaggle and place the CSV files in the `data/` folder before running the pipeline.
 
 Instead of training a model once and manually deploying it, the project uses **ZenML and MLflow** to create a reproducible workflow covering:
 
